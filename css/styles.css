@@ -207,7 +207,7 @@ button {
 }
 
 .features {
-  margin-top: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
   outline-style: solid 2px green;
 }
@@ -215,6 +215,7 @@ button {
 .features .list {
   display: flex;
   padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .features .features-el:not(:last-child) {
