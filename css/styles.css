@@ -385,10 +385,11 @@ footer {
   margin: 0 0 9px;
 }
 
+/*
 .footer-mail:focus,
 .footer-mail:hover {
   color: var(--accent-color);
-}
+}*/
 
 .footer-adress {
   font-style: normal;
@@ -402,8 +403,8 @@ footer {
   margin: 0;
 }
 
-.footer-tel:focus,
-.footer-tel:hover {
+.footer .footer-adress:focus,
+.footer .footer-adress:hover {
   color: var(--accent-color);
 }
 
