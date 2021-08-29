@@ -314,7 +314,7 @@ button {
 }
 
 .team .list {
-  display: flex;*/
+  display: flex;
 }
 
 .team .title {
@@ -332,7 +332,7 @@ button {
 }
 
 .team-el {
- /* display: inline-block;*/
+  /* display: inline-block;*/
 
   background-color: var(--white-color);
   width: 270px;
@@ -370,10 +370,9 @@ button {
 
 .team-element {
   /*display: flex;*/
- /* padding-top: 30px;
+  /* padding-top: 30px;
   padding-bottom: 30px;*/
 }
-
 
 .team-social-list {
   display: flex;
@@ -404,8 +403,7 @@ button {
   background-color: var(--accent-color);
   fill: var(--white-color);
 }*/
- 
- 
+
 /*.social-link:hover svg,
 .social-link:focus svg {
   background-color: #2196f3;
@@ -419,7 +417,7 @@ button {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8
+  fill: #afb1b8;
 }
 
 .social-link:hover,
@@ -430,7 +428,21 @@ button {
   background-color: var(--accent-color);
 }
 
+/*Clients*/
+.clients .list {
+  list-style: none;
+  text-decoration: none;
+}
 
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-bottom: 50px;
+}
 
 
 /* Footer */
