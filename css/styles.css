@@ -129,6 +129,8 @@ body {
   margin-right: 50px;
 }
 
+
+
 .site-contacts .link {
   font-weight: 500;
   font-size: 14px;
@@ -136,6 +138,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   display: flex;
+  align-content: center;
 }
 
 .site-contacts .link:hover,
@@ -143,7 +146,7 @@ body {
   color: var(--accent-color);
 }
 
-.icon-contacts {
+/*.icon-contacts {
   display: block;
   /* margin-right: 10px;*/
 }
@@ -367,13 +370,6 @@ button {
   color: var(--secondary-text-color);
   margin-bottom: 15px;
 }
-
-.team-element {
-  /*display: flex;*/
-  /* padding-top: 30px;
-  padding-bottom: 30px;*/
-}
-
 .team-social-list {
   display: flex;
   align-items: center;
@@ -382,7 +378,6 @@ button {
 }
 
 .team .list {
-  /*display: flex;*/
   list-style: none;
 }
 
@@ -397,18 +392,6 @@ button {
   justify-content: center;
   align-items: center;
 }
-
-/*.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
-}*/
-
-/*.social-link:hover svg,
-.social-link:focus svg {
-  background-color: #2196f3;
-  fill: var(--white-color);
-} */
 
 .team-social-list-el:not(:last-child) {
   margin-right: 10px;
@@ -432,6 +415,26 @@ button {
 .clients .list {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.clients-el {
+  display: flex;
+  flex-basis: calc((100% - 180px) / 6);
+  margin-top: 30px;
+  margin-left: 30px;
+ 
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-title {
