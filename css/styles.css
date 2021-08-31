@@ -13,6 +13,7 @@
   --bord-color: #2f303a;
   --bg-color-team: #f5f4fa;
   --footer-color: rgba(255, 255, 255, 0.6);
+  --footer-social: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -495,11 +496,19 @@ button {
 }
 
 /* Footer */
-
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bord-color);
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-part {
+  display: flex;
 }
 
 .footer-logo {
@@ -510,6 +519,7 @@ footer {
   color: var(--accent-color);
   display: inline-block;
   margin-top: 0;
+  padding-top: auto;
   margin-bottom: 20px;
   padding-right: auto;
 }
@@ -538,12 +548,6 @@ footer {
   margin: 0 0 9px;
 }
 
-/*
-.footer-mail:focus,
-.footer-mail:hover {
-  color: var(--accent-color);
-}*/
-
 .footer-adress {
   font-style: normal;
   font-weight: 400;
@@ -559,6 +563,49 @@ footer {
 .footer .footer-adress:focus,
 .footer .footer-adress:hover {
   color: var(--accent-color);
+}
+
+.footer-social-links {
+  margin-left: 70px;
+}
+
+.footer-social-links .team-social-list {
+  display: flex;
+}
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+
+.social-link-footer {
+  display: flex;
+  margin-bottom: 30px;
+  width: 44px;
+  height: 44px;
+  background-color: var(--footer-social);
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-footer {
+  width: 20px;
+  height: 20px;
+}
+
+.team-social-list-el:hover .social-link-footer,
+.team-social-list-el:focus .social-link-footer {
+  background-color: var(--accent-color);
+}
+.social-link-footer .social-icon-footer {
+  fill: var(--white-color);
 }
 
 /* Portfolio CSS */
@@ -607,6 +654,11 @@ footer {
   margin-bottom: 30px;
   width: 370px;
   /*height: 404px;*/
+}
+
+.card-set:hover .card-item,
+.card-set:focus .card-item {
+  box-shadow: 0px 1px 1px rgba0, 0, 0, 0.12), 0px 4px 4px rgba(0,0,0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-set-el {
